@@ -4,10 +4,4 @@ export { default as useEffect } from './hooks/useEffect'
 export { default as useMemo } from './hooks/useMemo'
 export { default as useState } from './hooks/useState'
 
-export default {
-    memo: memo,
-    useCallback: useCallback,
-    useEffect: useEffect,
-    useMemo: useMemo,
-    useState: useState,
-}
+export default 'team-gguys-hooks'
