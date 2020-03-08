@@ -1,0 +1,27 @@
+{
+  "name": "@team-gguys/hooks",
+  "version": "1.0.0",
+  "description": "Custom hooks for react",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/team-gguys/hooks.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/team-gguys/hooks/issues"
+  },
+  "homepage": "https://github.com/team-gguys/hooks#readme",
+  "dependencies": {
+    "react-fast-compare": "3.0.1",
+    "react-use": "13.27.0"
+  },
+  "devDependencies": {
+    "react": "16.13.0",
+    "react-dom": "16.13.0"
+  }
+}
