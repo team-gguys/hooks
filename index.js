@@ -1,15 +1,8 @@
-import customMemo from './hooks/memo'
-import useCustomCallback from './hooks/useCallback'
-import useCustomEffect from './hooks/useEffect'
-import useCustomMemo from './hooks/useMemo'
-import useCustomState from './hooks/useState'
-
-export const memo = customMemo
-export const useCallback = useCustomCallback
-export const useEffect = useCustomEffect
-export const useMemo = useCustomMemo
-export const useState = useCustomState
-
+export { default as memo } from './hooks/memo'
+export { default as useCallback } from './hooks/useCallback'
+export { default as useEffect } from './hooks/useEffect'
+export { default as useMemo } from './hooks/useMemo'
+export { default as useState } from './hooks/useState'
 
 export default {
     memo: memo,
