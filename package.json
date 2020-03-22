@@ -2,7 +2,7 @@
   "name": "team-gguys-hooks",
   "version": "1.0.7",
   "description": "Custom hooks for react",
-  "main": "dist/index.js",
+  "main": "index.js",
   "scripts": {
     "build": "webpack --mode production"
   },
