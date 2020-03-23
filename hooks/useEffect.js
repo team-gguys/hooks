@@ -1,11 +1,11 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import isEqual from 'react-fast-compare'
-import { useCustomCompareEffect, useMount } from 'react-use'
+import { useCustomCompareEffect } from 'react-use'
 
 
 const useCustomEffect = (effect, deps = []) => {
     if (deps.length === 0) {
-        useMount(effect)
+        useEffect(effect, [])
     } else {
         useCustomCompareEffect(effect, deps, isEqual)
     }
